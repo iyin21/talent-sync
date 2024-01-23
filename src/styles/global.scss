@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-2xl text-gray-800 font-semibold;
+    }
+    h2 {
+        @apply text-xl font-semibold;
+    }
+
+    h3 {
+        @apply text-2lg font-semibold;
+    }
+    h4 {
+        @apply text-lg;
+    }
+    h5 {
+        @apply text-md;
+    }
+    h6 {
+        @apply text-2sm;
+    }
+    .body-medium {
+        @apply text-sm;
+    }
+    .body-regular {
+        @apply text-md;
+    }
+    .body-small {
+        @apply text-sm;
+    }
+}
+
+.btn--primary {
+    @apply bg-blue-700 text-white-100 text-sm;
+}
+
+.btn--white {
+    @apply bg-white-100   border  border-gray-400 text-gray-900 text-sm;
+}
+.btn--green {
+    @apply border border-[#089628] text-[#089628] bg-[#ADD8B2] py-2;
+}
+.btn--light-blue {
+    @apply bg-[#BED6F7] border border-[1.5] border-[#1F6FE3] text-[#1F6FE3] py-2;
+}
+.btn--gray {
+    @apply bg-[#F5F5F5] py-2 border border-[#707070] text-[#707070];
+}
+
+.btn--clear {
+    @apply bg-transparent py-2;
+}
+
+.btn--border {
+    @apply bg-white-100 border border-[#86C429] py-2;
+}
+
+.btn--red {
+    @apply bg-[#FF5C5C22] text-[#707070] border-2 border-[#FF5C5C];
+}
+
+body {
+    margin: 0;
+    font-family:
+    "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Roboto",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Fira Sans",
+        "Droid Sans",
+        "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+

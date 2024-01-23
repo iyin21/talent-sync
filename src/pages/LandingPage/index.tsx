@@ -9,7 +9,7 @@ import Testimonial from "./components/Testimonial"
 
 const LandingPage = () => {
     return (
-        <div>
+        <div className="font-inter">
             <div className="lg:px-20 md:px-10 px-6 bg-headerBackground bg-center">
                 <header className=" py-10  bg-auto bg-no-repeat ">
                     <div className="">
